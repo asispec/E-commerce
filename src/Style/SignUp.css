@@ -1,0 +1,131 @@
+section {
+  margin-top: 60px;
+  margin-bottom: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 135px 0px 0px;
+}
+.section-right {
+  width: 370px;
+  height: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.tag {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.tag h1 {
+  font-family: Inter;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 4%;
+}
+.tag p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.inputs {
+  height: 176px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.inputs input {
+  width: 100%;
+  height: 32px;
+  background: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+.inputs input:focus {
+  outline: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+.btns button {
+  width: 100%;
+  height: 56px;
+  cursor: pointer;
+}
+.btns button:nth-child(1) {
+  border: none;
+  background-color: rgba(219, 68, 68, 1);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: white;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.btns button:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  gap: 8px;
+  border-radius: 4px;
+  background: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.tolog {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.3);
+}
+.tolog p {
+  font-family: Poppins;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.btn {
+  cursor: pointer;
+  font-family: Poppins;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  background: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: rgba(0, 0, 0, 0.3);
+}
